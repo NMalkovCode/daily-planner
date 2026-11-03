@@ -42,7 +42,9 @@ Built with [Tauri 2](https://tauri.app) (Rust) and React + TypeScript, with a lo
 
 ## Install
 
-Build the installer as described below, then run `Daily Planner_<version>_x64-setup.exe`. It installs for the current user only (no admin rights needed), into `%LOCALAPPDATA%\Daily Planner`, and adds Start menu and desktop shortcuts. Uninstall it from **Settings → Apps → Installed apps**.
+Download **`DailyPlanner_<version>_x64-setup.exe`** from the [latest release](https://github.com/NMalkovCode/daily-planner/releases/latest) and run it. It installs for the current user only (no admin rights needed), into `%LOCALAPPDATA%\Daily Planner`, and adds Start menu and desktop shortcuts. Uninstall it from **Settings → Apps → Installed apps**.
+
+The installer isn't code-signed yet, so Windows may show "Windows protected your PC". Click **More info → Run anyway**. Requires Windows 10 or 11 (64-bit).
 
 ## Build from source
 
